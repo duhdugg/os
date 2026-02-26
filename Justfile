@@ -316,3 +316,10 @@ format:
     fi
     # Run shfmt on all Bash scripts
     /usr/bin/find . -iname "*.sh" -type f -exec shfmt --write "{}" ';'
+
+# Live deploy of /etc files
+[group('Live Instance Maintenance')]
+live-etc-deploy:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    sudo cp -dr ./fs/etc/* /etc/
