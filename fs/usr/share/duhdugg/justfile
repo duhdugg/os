@@ -1,0 +1,23 @@
+_list:
+  #!/usr/bin/env bash
+  just --list
+
+fix-cron:
+  #!/usr/bin/env bash
+  set -ex
+  if [ -z "${CONTAINER_ID}" ]; then
+    sudo restorecon -Rv /var/spool/cron
+    sudo systemctl restart crond
+  else
+    distrobox-host-exec uhjust fix-cron
+  fi
+
+install-curlie:
+  #!/usr/bin/env bash
+  set -euxo pipefail
+  go install github.com/rs/curlie@latest
+
+install-superfile:
+  #!/usr/bin/env bash
+  set -euxo pipefail
+  go install github.com/yorukot/superfile@latest
