@@ -30,3 +30,6 @@ yarnpkg
 zsh-autosuggestions
 zsh-syntax-highlighting
 zoxide
+# python build dependencies
+bzip2-devel
+libffi-devel
