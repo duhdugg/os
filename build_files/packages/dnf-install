@@ -27,11 +27,11 @@ yarnpkg
 zsh-autosuggestions
 zsh-syntax-highlighting
 zoxide
-# postgresql
+# POSTGRESQL
 libpq-devel
 postgresql
 postgresql-contrib
-# python build dependencies
+# PYTHON BUILD DEPENDENCIES
 bzip2-devel
 libffi-devel
 sqlite-devel
