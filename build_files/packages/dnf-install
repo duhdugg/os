@@ -1,7 +1,6 @@
 atuin
 awscli2
 bat
-borgbackup
 btop
 caddy
 cowsay
@@ -13,7 +12,6 @@ git-delta
 golang
 httpie
 iftop
-konsole
 lsd
 mpv
 neovim
