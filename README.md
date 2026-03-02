@@ -7,3 +7,9 @@
 3. reboot
 4. run `sudo rpm-ostree rebase ostree-image-signed:docker://ghcr.io/duhdugg/os:latest`
 5. reboot
+
+## Recommended: Change Default Shell to ZSH
+
+```bash
+usermod -s /bin/zsh $USER
+```
