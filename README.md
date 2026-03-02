@@ -1,3 +1,5 @@
+[![build](https://github.com/duhdugg/os/actions/workflows/build.yml/badge.svg)](https://github.com/duhdugg/os/actions/workflows/build.yml)
+
 ## First Install Instructions
 
 1. [Install Aurora](https://docs.getaurora.dev/guides/install-guide)
