@@ -29,8 +29,8 @@ zsh-syntax-highlighting
 zoxide
 # postgresql
 libpq-devel
-postgresql16
-postgresql16-contrib
+postgresql
+postgresql-contrib
 # python build dependencies
 bzip2-devel
 libffi-devel
