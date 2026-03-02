@@ -33,3 +33,5 @@ zoxide
 # python build dependencies
 bzip2-devel
 libffi-devel
+tk-devel
+sqlite-devel
