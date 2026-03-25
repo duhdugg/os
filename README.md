@@ -5,7 +5,7 @@
 1. [Install Aurora](https://docs.getaurora.dev/guides/install-guide)
 2. run `sudo bootc switch ghcr.io/duhdugg/os:latest`
 3. reboot
-4. run `sudo rpm-ostree rebase ostree-image-signed:docker://ghcr.io/duhdugg/os:latest`
+4. run `sudo bootc switch --enforce-container-sigpolicy ghcr.io/duhdugg/os:latest`
 5. reboot
 
 ## Recommended: Change Default Shell to ZSH
